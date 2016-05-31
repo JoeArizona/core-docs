@@ -22,7 +22,7 @@ The following are the main characteristics of .NET Core:
 
 .NET Native is not so much an "edition" of the .NET platform as it is a set of native build tools for .NET Core. .NET Native is an Ahead-of-Time (AOT) toolchain that compiles IL byte code to native machine code, so that when the code is executed, there is only “native” code running. This means that the resulting binary is what the OS executes; there is no JIT-ing, no runtime compilation. This leads to better performance, as well as some security benefits.
 
-.NET Native is primarily used by .NET **[Universal Windows Platform (UWP)](https://msdn.microsoft.com/library/windows/apps/dn726767.aspx)** applications.
+.NET Native is primarily used by .NET **[Universal Windows Platform (UWP)](https://msdn.microsoft.com/en-us/windows/uwp/layout/design-and-ui-intro)** applications.
 
 ## .NET Framework
 
